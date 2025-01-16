@@ -16,6 +16,11 @@
   -->
 
 <PreferenceScreen
+        android:layout="@layout/los_logo"
+        android:key="los_logo"
+        android:selectable="false" />
+
+<PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/firmware_version"
